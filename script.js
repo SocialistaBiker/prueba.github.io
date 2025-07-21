@@ -52,9 +52,9 @@ $( document ).ready(function() {
 function isMobile() {
   let navegador = navigator.userAgent;
   if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
-//    return alert("Estás usando un dispositivo móvil!!");
+    return alert("Estás usando un dispositivo móvil!!");
   } else {
-    //alert("No estás usando un móvil");
+    alert("No estás usando un móvil");
     
     return location.href= "/notcel.html";
   }
